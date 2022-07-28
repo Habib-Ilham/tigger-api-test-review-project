@@ -6,6 +6,6 @@ package tiggers.api.test.runner;
 		@Karate.Test
 		public Karate runTest() {
 			return Karate.run("classpath:features")
-					.tags("@End2End");
+					.tags("@smoke");
 		}  
 	} 
